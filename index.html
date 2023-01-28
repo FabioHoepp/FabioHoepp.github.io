@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	
+	<link rel="icon" href="dec.png" >
+
+	<title>Decodificador de texto</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="challenge.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Quicksand&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+	<header>
+		<img class="logoAlura" src="Vector.png" alt="Logo da Alura">
+	</header>
+		
+	<main>
+		<section>
+			<div class="informaçao">
+				<img class="exclamaçao" src="Vector2.png" alt="signo de exclamaçao">
+				<p class="apenas">Apenas letras minusculas e sem acentos</p>
+			</div>
+
+			<textarea class="text-area" placeholder="Digite seu texto"></textarea>
+
+			<nav class="botones">
+				<button class="Encriptar" onclick="btnEncriptar()">Criptografar</p></button>		
+				<button class="Desencriptar" onclick="btnDesencriptar()">Descriptografar</p></button>
+			</nav>
+		</section>
+
+		<section class="caixa">
+			<img class="figura" src="High quality products 1 1.png" alt="figura de busca">
+
+			<div>
+				<textarea class="mensagem" id="texto" value=""></textarea>
+			</div>
+		
+			<button class="cop" id="copy" >Copiar</button>
+						 <script type="text/javascript">
+						    const textotextarea = document.getElementById('texto');
+						    const copyButton = document.getElementById('copy');
+
+						    copyButton.addEventListener('click', ()=> {
+						      textotextarea.select();
+						      document.execCommand('copy');
+						    });
+						 </script>
+				
+		</section><script src="script.js"></script>
+	</main>
+	<footer class="red">
+
+		<script src="https://kit.fontawesome.com/0d599d5a12.js" crossorigin="anonymous"></script>
+
+		<a href="https://www.instagram.com/fabihongo/" target="_blank" rel="noopener noreferrer" id="ig">INSTAGRAM<i class="fa-brands fa-square-instagram"></i></a>
+
+		<a href="https://www.linkedin.com/in/fabio-rodriguez-hoepp-55a51b222/" target="_blank" rel="noopener noreferrer" id="li">Linkedin<i class="fa-brands fa-linkedin"></i></a>
+	
+
+	</footer>
+	
+</body>
+</html>
+	
